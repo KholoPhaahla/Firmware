@@ -33,7 +33,7 @@
 px4_add_module(
 	MODULE systemcmds__sd_bench
 	MAIN sd_bench
-	STACK_MAIN 2500
+	STACK_MAIN 3500
 	COMPILE_FLAGS
 	SRCS
 		sd_bench.c
